@@ -11,8 +11,7 @@ namespace Demo_API.Controllers
     {
         // GET: api/People
         public IEnumerable<string> Get()
-        {
-            string myString = "hello";
+        { 
             return new string[] { "value1", "value2" };
         }
 
